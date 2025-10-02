@@ -28,7 +28,7 @@ Default addresses:
 Backend API → http://localhost:8000
 Docs (Swagger UI) → http://localhost:8000/docs
 
-2. Frontend (React + Vite)
+### 2. Frontend (React + Vite)
 cd frontend
 npm install
 Run frontend:
@@ -37,6 +37,7 @@ npm run dev
 Default address:
 Frontend UI → http://localhost:5173
 
+------------------------------------------------
 📊 Features
 
 🔧 FEA Solver: Calculates displacements, element forces, and stresses for a demo truss
