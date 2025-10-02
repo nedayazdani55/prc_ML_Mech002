@@ -1,0 +1,45 @@
+Demo Video Script: Smart FEA + AI Project
+
+Summary
+Step 1: Run the backend (FastAPI) at http://localhost:8000
+Step 2: Open the frontend at http://localhost:5173
+Step 3: Enter sample input: load=-1000, A=0.0001
+Step 4: Observe JSON output and visual plots
+Step 5: Highlight maximum stress and displacement
+
+Description
+
+Step 1: Run the Backend
+- Open terminal
+- Activate virtual environment: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Linux)
+- Start FastAPI backend: `uvicorn main:app --reload`
+- Verify backend is running at http://localhost:8000
+
+Step 2: Run the Frontend
+- Open a new terminal
+- Go to frontend folder: `cd frontend`
+- Install dependencies (first time only): `npm install`
+- Start React frontend: `npm run dev`
+- Open browser at http://localhost:5173
+
+Step 3: Input Sample Data
+- On the frontend input fields, enter:
+  - Load = -1000
+  - Cross-sectional area A = 0.0001
+- Click "Predict" or "Run Analysis"
+
+Step 4: Observe Results
+- JSON output from backend will be displayed:
+  - Displacements (u)
+  - Element forces
+  - Element stresses
+  - Maximum stress and maximum displacement
+- Highlight max_stress and max_disp on UI
+
+Step 5: Visualize FEA
+- Use any visualization component (plot, chart, or 3D view) to show displacement and stress distribution
+- Optional: Save results to file for reporting
+
+Step 6: End of Demo
+- Close frontend and backend terminals
+- Optionally, record screen to produce demo video
